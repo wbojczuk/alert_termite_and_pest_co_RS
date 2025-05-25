@@ -42,7 +42,7 @@ export default function ServiceArea({areaData, mapURL}: {areaData: string[], map
           <iframe src={mapURL}></iframe>
         </div>
         
-        <img src='/img/servicearea.png' alt='Image of ants' className='bg-img' />
+        <img src='/img/servicearea.webp' alt='Image of ants' className='bg-img' />
         <div style={{backgroundColor: "rgba(0,0,0,0.8)"}} className='shader'></div>
         <div className={`shader ${styles.shader2}`}></div>
     </section>

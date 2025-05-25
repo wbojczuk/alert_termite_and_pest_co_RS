@@ -46,7 +46,14 @@ const reviewData: reviewType[] = [
     role: "Retired Veteran – South Padre Island, TX",
     title: "Fair and Trustworthy",
     desc: `It’s hard to find honest service these days. I trust Alert to take care of my home without trying to sell me things I don’t need. Great company.`
+},
+{
+    name: "Angela B.",
+    role: "Homeowner – Los Fresnos, TX",
+    title: "Excellent Customer Service",
+    desc: `From the first phone call to the final treatment, the team at Alert Termite and Pest CO. was courteous, knowledgeable, and efficient. They took the time to answer all my questions and made sure every concern was addressed. I couldn’t be happier with their service.`
 }
+
 
 ]
 

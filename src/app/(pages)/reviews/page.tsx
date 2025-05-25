@@ -1,12 +1,12 @@
-import AboutContent from "@/app/(mainsite)/components/aboutpage/AboutContent/AboutContent"
 import ServiceMap from "@/app/(mainsite)/components/aboutpage/ServiceMap/ServiceMap"
 import StatsRibbon from "@/app/(mainsite)/components/homepage/StatsRibbon/StatsRibbon"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
+import Reviews from "@/app/(mainsite)/components/reviewspage/Reviews/Reviews"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `About | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `About | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Reviews | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Reviews | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -27,11 +27,11 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 }
 }
 
-export default function AboutPage(){
+export default function ReviewsPage(){
 	 return(
 	 	 <>
-			<PageTitle pageTitle="About" />
-			<AboutContent />
+			<PageTitle pageTitle="Reviews" />
+			<Reviews />
 			<StatsRibbon />
 			<ServiceMap />
 	 	 </>

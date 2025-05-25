@@ -21,7 +21,7 @@ export default function AboutUs() {
 
         <div className={styles.imgWrapper}>
           <div className={styles.imgContainer}>
-            <img src="/img/about.png" alt="image of a dead roach" className={styles.mainImg} />
+            <img src="/img/about.webp" alt="image of a dead roach" className={styles.mainImg} />
             <Shader background="var(--primary-color)" opacity={.51} zIndex={100}/>
             <div className={styles.imgStyle}></div>
           </div>

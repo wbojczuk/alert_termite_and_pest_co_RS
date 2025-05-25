@@ -13,7 +13,7 @@ export default function Header() {
 
         <Link href="/contact" className="main-link">Get a Quote</Link>
 
-        <img src="/img/header-bg.png" alt="" className="bg-img" />
+        <img src="/img/header-bg.webp" alt="" className="bg-img" />
         <Shader opacity={.75} />
 
     </header>
