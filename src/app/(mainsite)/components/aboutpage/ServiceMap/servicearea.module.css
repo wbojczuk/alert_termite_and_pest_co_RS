@@ -23,15 +23,28 @@
     width: 100%;
     aspect-ratio: 3/1;
     overflow: hidden;
+    position: relative;
 }
 
 .mapWrapper iframe{
     width: 100%;
-    height: 112%;
+    height: 100%;
     position: relative;
-    top: -12%;
-    border-radius: 10px;
+    /* top: -12%; */
+    
 }
+.mapContainer{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 112%;
+        top: -12%;
+    }
+    
+    .mapWrapper iframe{
+         height: 100%;
+            width: 100%;
+    }
 
 
 /* SMALL LAPTOP STYLES */
@@ -58,15 +71,26 @@
     .textWrapper a{
         margin: 5vw 0 3vw 0;
     }
+
+     
     
     .mapWrapper{
+        position: relative;
         width: 100%;
         aspect-ratio: 2/1;
     }
+
+    .mapContainer{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 120%;
+        top: -20%;
+    }
     
     .mapWrapper iframe{
-         height: 120%;
-    top: -20%;
+         height: 100%;
+            width: 100%;
     }
 }
 
@@ -96,9 +120,18 @@
         width: 100%;
         aspect-ratio: 1.6/1;
     }
+
+    .mapContainer{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 146%;
+        top: -46%;
+    }
     
     .mapWrapper iframe{
-        height: 126%;
-        top: -26%;
+       width: 100%;
+       height: 100%;
+        z-index: 0;
     }
 }
